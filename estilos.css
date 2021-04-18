@@ -1,0 +1,99 @@
+@font-face{
+    font-family: Gilroy ExtraBold;
+    src: url(./fonts/gilroy-extrabold.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background-color: black;
+    font-family: 'Gilroy ExtraBold';
+    color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.container-header{
+    margin-top: 25px;
+}
+#titulo{
+    font-size: 50px;
+}
+.buscador{
+    margin-top: 45px;
+}
+.titulo-buscador{
+    margin-bottom: 15px;
+}
+#entrada{
+    background-color: rgb(44, 44, 44);
+    color: greenyellow;
+    font-family: 'Gilroy ExtraBold';
+    border-radius: 2%;
+    border-style: none;
+    padding: 5px;
+    text-align: center;
+}
+#boton-busqueda{
+    background-color: greenyellow;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5%;
+    border-style: none;
+    font-family: 'Gilroy ExtraBold';
+}
+.container-pixabay{
+    display: flex;
+    flex: 10%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.container-pixabay img{
+    margin-top: 50px;
+    height: 200px;
+    width: 350px;
+    
+}
+.titulo-misFotos{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 45%;
+}
+.misFotos{
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+    border-radius: 5%;
+}
+
+.ubicacion{
+    margin-bottom: 100px;
+}
+
+
+footer {
+    margin-top: 250px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: greenyellow;
+    text-decoration: none; }
+    footer .footerlink {
+      color: greenyellow; }
+      footer .footerlink:hover {
+        color: cyan;
+        text-decoration: none; }
